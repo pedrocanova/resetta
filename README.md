@@ -8,10 +8,9 @@ Precisa só do **Python 3** instalado (https://www.python.org/downloads/; no Win
 ```
 git clone https://github.com/pedrocanova/resetta.git
 cd resetta
-git checkout claude/adoring-ramanujan-kfmic7
 python -m http.server 8000
 ```
-Sem git: no GitHub, escolha a branch `claude/adoring-ramanujan-kfmic7` → **Code → Download ZIP**, descompacte, abra um terminal na pasta e rode `python -m http.server 8000`.
+Sem git: no GitHub, clique em **Code → Download ZIP**, descompacte, abra um terminal na pasta e rode `python -m http.server 8000`.
 
 Abra **http://localhost:8000/?rapido&hora=14** no navegador (precisa de servidor porque o app carrega `rules.json` e `textos.json`). Para ver como celular: F12 → ícone de celular.
 Roteiro de 3 minutos: [docs/demo.md](docs/demo.md).
