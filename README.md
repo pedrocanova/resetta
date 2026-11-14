@@ -1,4 +1,4 @@
-# Pulso — protótipo de classificação de risco (3º Hackathon em Saúde IMT/São Camilo, Tema 1)
+# Resetta — protótipo de classificação de risco (3º Hackathon em Saúde IMT/São Camilo, Tema 1)
 
 Pulseira de baixo custo + app para quem está parando o uso de substâncias.
 **Classificação de risco, não é diagnóstico.** Todo resultado fica pendente de revisão por profissional. Limiares, perfis e orientações são parâmetros iniciais **não validados clinicamente** (`rules.json/_meta.aviso`).

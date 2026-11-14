@@ -1,11 +1,11 @@
-# Pulseira Pulso: ficha técnica e modelo de custo por paciente
+# Pulseira Resetta: ficha técnica e modelo de custo por paciente
 
 > Protótipo de hackathon. Componentes e valores são **propostas a validar**; nenhum preço foi inventado.
 > Tabela editável com total calculado: abra [`pulseira-custos.html`](pulseira-custos.html) no navegador.
 
 ## 1. Ficha técnica (proposta)
 
-| Bloco | Função no Pulso | Opções a avaliar | Observações |
+| Bloco | Função no Resetta | Opções a avaliar | Observações |
 |---|---|---|---|
 | Sensor óptico PPG | Frequência cardíaca (e variabilidade, se possível) para a linha de base individual | Módulo PPG de pulso com LED verde | Precisão cai com movimento e tremor; validar contra referência |
 | Acelerômetro (IMU) | Movimento, agitação, tremor, sono/inatividade | IMU de 3 ou 6 eixos | Também ajuda a descartar leituras de PPG com artefato |

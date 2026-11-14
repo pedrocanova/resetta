@@ -1,12 +1,12 @@
 {
   "_meta": {
     "revisao_clinica": "pendente",
-    "nota": "Textos de acolhimento do Pulso. Esperança com honestidade: sem prometer resultado e sem estatísticas. Nunca usar: viciado, limpo/sujo, usuário, fracasso, falhou, perdeu. Nas telas de emergência (vermelho, SOS, check-in de segurança) nenhum texto motivacional antes da ação."
+    "nota": "Textos de acolhimento do Resetta. Esperança com honestidade: sem prometer resultado e sem estatísticas. Nunca usar: viciado, limpo/sujo, usuário, fracasso, falhou, perdeu. Nas telas de emergência (vermelho, SOS, check-in de segurança) nenhum texto motivacional antes da ação."
   },
   "boas_vindas": {
     "titulo": "Que bom que você está aqui",
     "frases": [
-      "O Pulso vai acompanhar você nos próximos dias, junto com a equipe do CAPS AD ou da UBS.",
+      "O Resetta vai acompanhar você nos próximos dias, junto com a equipe do CAPS AD ou da UBS.",
       "Você não está sozinho(a) nesse caminho.",
       "Dar o primeiro passo já importa."
     ],

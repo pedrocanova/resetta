@@ -1,4 +1,4 @@
-// Pulso — protótipo de classificação de risco (hackathon). Não faz diagnóstico: todo resultado vai para revisão por profissional.
+// Resetta — protótipo de classificação de risco (hackathon). Não faz diagnóstico: todo resultado vai para revisão por profissional.
 // Toda regra clínica está em rules.json (parâmetros iniciais NÃO validados); este arquivo só interpreta.
 // Persistência: só localStorage, só com consentimento, só para teste (LGPD art. 11).
 // Premissa: GPS e reconhecimento de atividade vêm da pulseira e/ou do celular (configurável); a pulseira (BLE) envia FC, tremor, sono e vibra. Tudo simulado.
@@ -517,7 +517,7 @@ function mensagemContato(tel){
   const c = S.contato;
   if (!c) return 'Sem contato de confiança cadastrado. O painel do CAPS recebeu o alerta.';
   return `<b>PROTÓTIPO: nada foi enviado.</b>${S.pul.con === 'offline' ? ' (sem conexão: seria enviado ao reconectar)' : ''}<br>Para: ${esc(c.nome)} (••••${esc(c.tel.slice(-4))})<br>
-    “Pulso: alerta vermelho às ${esc(tel.t)}${regiao() ? ', região ' + esc(regiao()) : ''}. FC recente: ${tel.fc.length ? tel.fc.join(', ') + ' bpm' : 'sem leituras'}; tremor: ${tel.tremor ?? '–'}; acompanhamento: ${esc(tel.perfil)}; localização: ${tel.coords || 'não compartilhada'}. Por favor, entre em contato agora.”`;
+    “Resetta: alerta vermelho às ${esc(tel.t)}${regiao() ? ', região ' + esc(regiao()) : ''}. FC recente: ${tel.fc.length ? tel.fc.join(', ') + ' bpm' : 'sem leituras'}; tremor: ${tel.tremor ?? '–'}; acompanhamento: ${esc(tel.perfil)}; localização: ${tel.coords || 'não compartilhada'}. Por favor, entre em contato agora.”`;
 }
 function escalar(origem){
   const cfg = R.sensor.escalonamento.por_origem[origem] || {contato:'oferecer', ligacao:'botao'};
@@ -606,7 +606,7 @@ function telaResumo(voltar = () => ir('dados')){
   <button id=imprimir>Imprimir</button><button id=baixar>Baixar JSON</button>
   <button class="big sec" id=voltar>Voltar</button>`);
   on('imprimir', () => window.print());
-  on('baixar', () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([json], {type:'application/json'})); a.download = 'pulso-resumo.json'; a.click(); });
+  on('baixar', () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([json], {type:'application/json'})); a.download = 'resetta-resumo.json'; a.click(); });
   on('voltar', voltar);
 }
 

@@ -2,7 +2,7 @@
 
 > Protótipo de hackathon. Classificação de risco, não diagnóstico. Limiares são parâmetros iniciais **não validados**.
 
-| Item do dossiê | Avaliação | Decisão no Pulso |
+| Item do dossiê | Avaliação | Decisão no Resetta |
 |---|---|---|
 | Filtro de exercício por velocidade de GPS | **Não sustentado** sozinho: em ônibus/carro a velocidade sobe sem esforço físico, e uma crise dentro de um veículo seria descartada | FC alta só é descartada como exercício com atividade **andando/correndo + cadência de passos rítmica**. Em veículo ou parado, não descarta. Velocidade de GPS sozinha nunca basta. Cada descarte vai para o log com o motivo |
 | Limiares fixos de FC (ex.: > 120 bpm) | **Com ajuste**: FC de repouso varia muito entre pessoas e com medicação | Desvio da **linha de base individual** (z-score), em qualquer direção (a FC cai na sedação), com limiar por perfil e por regime em `rules.json`. Valores iniciais a calibrar no piloto |

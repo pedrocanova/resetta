@@ -1,4 +1,4 @@
-"""Testes Playwright (Python) do protótipo Pulso, em viewport de celular (360x640).
+"""Testes Playwright (Python) do protótipo Resetta, em viewport de celular (360x640).
 Rodar:  python -m pytest tests  (usa o Edge instalado; PW_CHANNEL=chromium para o Chromium do Playwright)
 Os testes usam ?rapido (60x; contagens curtas no máximo 5x) e ?hora=14 (dia) para serem determinísticos.
 """
