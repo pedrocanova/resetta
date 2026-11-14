@@ -6,8 +6,8 @@ Pulseira de baixo custo + app para quem está parando o uso de substâncias.
 ## Como rodar
 Precisa só do **Python 3** instalado (https://www.python.org/downloads/; no Windows, marque "Add Python to PATH").
 ```
-git clone https://github.com/pedrocanova/hachathon-maua-2026.git
-cd hachathon-maua-2026
+git clone https://github.com/pedrocanova/resetta.git
+cd resetta
 git checkout claude/adoring-ramanujan-kfmic7
 python -m http.server 8000
 ```
